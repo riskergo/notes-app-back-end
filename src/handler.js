@@ -136,7 +136,7 @@ const showNotesToConsole = (_, h) => {
 
     const response = h.response({
       status: 'success',
-      message: 'Notes Berhasil ditampilkan',
+      message: 'Catatan Berhasil ditampilkan',
     });
     response.code(200);
     return response;

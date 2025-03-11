@@ -77,7 +77,7 @@ const editHandlerById = (request, h) => {
   const updateAt = new Date().toISOString();
 
   //* untuk mencocokkan id dari client dengan catatan yang ingin diubah, gunakan
-  //* mnetode array indexing untuk mencari id yang cocok
+  //* metode array indexing untuk mencari id yang cocok
   const index = notes.findIndex((note) => note.id === id);
 
   //* setelah didapatkan ubah, jika tidak akan menghasilkan nilai -1, terapkan pengkondisian
